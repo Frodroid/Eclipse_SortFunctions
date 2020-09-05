@@ -41,6 +41,7 @@ public class Main {
 					Sortieren.Sort_InsertionSort(Zahlen);
 					Sortieren.Sort_BubbleSort(Zahlen);
 					System.out.println("Test");
+					System.out.println("Test2");
 					break;		
 			}	
 		}
