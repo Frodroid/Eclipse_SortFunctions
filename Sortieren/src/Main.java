@@ -40,6 +40,7 @@ public class Main {
 					Sortieren.Sort_SelectionSort(Zahlen);
 					Sortieren.Sort_InsertionSort(Zahlen);
 					Sortieren.Sort_BubbleSort(Zahlen);
+					System.out.println("Test");
 					break;		
 			}	
 		}
