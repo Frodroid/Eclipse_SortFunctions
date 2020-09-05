@@ -9,7 +9,7 @@ public class BubbleSort {
         for (int m = n; m >= 0; m--) {
             for (int i = 0; i < n - 1; i++) {
                 k = i + 1;
-                if (array[i] > array[k]) {
+                if (array[i] > array[k]) { //Um hier die Zahlen anders herum zu sortieren nur das > Zeichen tauschen.
                     swapNumbers(i, k, array);
                 }
             }

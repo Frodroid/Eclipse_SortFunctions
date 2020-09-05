@@ -11,6 +11,7 @@ public class Main {
 		
 		//Hier ein parametrisierter Aufruf des Programms!
 		//Man soll per Parameter sagen, welche Sortierung aufgerufen wird und nur diese wird dann ausgeführt.
+		
 		for (int i = 0; i <= args.length - 1; i++) {
 			String Sort_Art = args[i]; 
 			switch(Sort_Art) {

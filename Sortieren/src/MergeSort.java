@@ -35,7 +35,7 @@ public class MergeSort {
         int j = middle + 1;
         int k = lowerIndex;
         while (i <= middle && j <= higherIndex) {
-            if (tempMergArr[i] <= tempMergArr[j]) {
+            if (tempMergArr[i] <= tempMergArr[j]) { //Um hier die Zahlen anders herum zu sortieren nur das > Zeichen tauschen.
                 array[k] = tempMergArr[i];
                 i++;
             } else {
